@@ -27,7 +27,6 @@ function App() {
 
   const handleOperator = (event) => {
     const operator = event.target.textContent;
-    const operators = ['+', '-', '/', '*'];
     const array = problem.split(' ');
     if (array[array.length - 1] === "") {
       if (operator === '-') {
